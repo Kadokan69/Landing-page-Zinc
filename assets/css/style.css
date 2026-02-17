@@ -525,6 +525,9 @@ section > .row {
   font-size: 20px;
   font-weight: 700;
 }
+.sale {
+  background: linear-gradient(0deg, #abd8ff, transparent);
+}
 .sale__container {
   display: grid;
   grid-template-columns: 1fr 1.3fr;
