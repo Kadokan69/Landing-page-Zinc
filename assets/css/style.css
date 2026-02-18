@@ -227,9 +227,25 @@ section > .row {
   align-items: center;
   grid-template-columns: repeat(3, 1fr);
   z-index: 1000;
+  justify-items: center;
 }
 .hero__content-link img {
   width: 150px;
+}
+.hero__content-link a{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.btn_buy {
+  max-width: 120px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--color-acctent);
+  border-radius: 25px;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
 }
 .list-items {
   position: absolute;
@@ -642,7 +658,7 @@ footer {
 
   .header__menu-list {
     position: fixed;
-    right: -50%;
+    right: -70%;
     transition: right ease-out 300ms;
     display: flex;
     flex-direction: column;
@@ -650,7 +666,7 @@ footer {
     background: rgb(255, 255, 255);
     padding: 25px;
     height: 100%;
-    width: 50%;
+    width: 70%;
     align-items: center;
     z-index: 10;
   }

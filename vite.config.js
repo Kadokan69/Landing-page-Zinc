@@ -20,7 +20,7 @@ export default defineConfig({
 
         assetFileNames: ({ name }) => {
 
-          if (/\.(png|jpe?g|gif|svg|webp|ico)$/.test(name ?? '')) {
+          if (/\.(png|jpe?g|gif|svg|webp|ico|webmanifest)$/.test(name ?? '')) {
             return 'assets/img/[name]-[hash][extname]';
           }
 
